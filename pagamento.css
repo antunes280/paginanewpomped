@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+
+    background-image: url("Chamada\ pra\ ação.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .payment-options {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .payment-options h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .payment-options ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .payment-options li {
+    margin: 0 10px;
+  }
+  
+  .payment-option {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .payment-option:hover {
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  .payment-option img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .payment-option span {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .payment-option p {
+    font-size: 14px;
+    color: #fcfcfc;
+  }
+  
+  .payment-option[data-payment-method="pix"] {
+    background-color: #95ff0a;
+  }
+  
+  .payment-option[data-payment-method="cartao"] {
+    background-color: #100cff;
+  }
+  
+  .payment-option[data-payment-method="boleto"] {
+    background-color: #ff0202;
+  }
+
+  /* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    /* Estilos específicos para telas menores que 600px */
+  }
+  
+  /* Estilos para tablets */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Estilos específicos para telas entre 601px e 1024px */
+  }
+  
+  /* Estilos para desktops */
+  @media only screen and (min-width: 1025px) {
+    /* Estilos específicos para telas maiores que 1025px */
+  }
+  
+  
